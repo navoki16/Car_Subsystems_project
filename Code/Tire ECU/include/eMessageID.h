@@ -1,0 +1,15 @@
+#ifndef EMESSAGE_ID_H
+#define EMESSAGE_ID_H
+
+enum ID
+{
+    BRAKE_PRESSED = 1,
+    ENGINE_TEMP,
+    TIRE_PRESSURE,
+    ENGINE_SET_RPM,
+    ENGINE_RPM,
+    BLINKERS,
+    HEADLIGHTS
+};
+
+#endif
